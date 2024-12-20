@@ -7,7 +7,7 @@ exports.createBootcamp = async (req, res) => {
 
   try {
     if (!title || !cue || !descripcion) {
-      return res.status(400).json({ message: 'Todos los campos (id,title, cue, descripcion) son requeridos' });
+      return res.status(400).json({ message: 'Todos los campos (title, cue, descripcion) son requeridos' });
     }
 
     // Crear el nuevo bootcamp
