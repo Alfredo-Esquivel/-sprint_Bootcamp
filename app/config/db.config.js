@@ -2,7 +2,7 @@
 module.exports = {
   HOST: "localhost",
   USER: "postgres",
-  PASSWORD: "Lucas8", 
+  PASSWORD: "xxxxxx", 
   DB: "db_jwtbootcamp",  // Nombre de la base de datos
   dialect: "postgres",   // Dialecto como una cadena de texto
   pool: {
